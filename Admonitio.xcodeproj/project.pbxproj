@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD983F1E2BAF926800FD8B07 /* AdmonitioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F1D2BAF926800FD8B07 /* AdmonitioApp.swift */; };
+		CD983F202BAF926800FD8B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F1F2BAF926800FD8B07 /* ContentView.swift */; };
+		CD983F222BAF926A00FD8B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD983F212BAF926A00FD8B07 /* Assets.xcassets */; };
+		CD983F252BAF926A00FD8B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD983F242BAF926A00FD8B07 /* Preview Assets.xcassets */; };
+		CD983F2F2BAF926A00FD8B07 /* AdmonitioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F2E2BAF926A00FD8B07 /* AdmonitioTests.swift */; };
+		CD983F392BAF926A00FD8B07 /* AdmonitioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F382BAF926A00FD8B07 /* AdmonitioUITests.swift */; };
+		CD983F3B2BAF926A00FD8B07 /* AdmonitioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F3A2BAF926A00FD8B07 /* AdmonitioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD983F2B2BAF926A00FD8B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD983F122BAF926800FD8B07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD983F192BAF926800FD8B07;
+			remoteInfo = Admonitio;
+		};
+		CD983F352BAF926A00FD8B07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD983F122BAF926800FD8B07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD983F192BAF926800FD8B07;
+			remoteInfo = Admonitio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD983F1A2BAF926800FD8B07 /* Admonitio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Admonitio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD983F1D2BAF926800FD8B07 /* AdmonitioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmonitioApp.swift; sourceTree = "<group>"; };
+		CD983F1F2BAF926800FD8B07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD983F212BAF926A00FD8B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD983F242BAF926A00FD8B07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD983F2A2BAF926A00FD8B07 /* AdmonitioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdmonitioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD983F2E2BAF926A00FD8B07 /* AdmonitioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmonitioTests.swift; sourceTree = "<group>"; };
+		CD983F342BAF926A00FD8B07 /* AdmonitioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdmonitioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD983F382BAF926A00FD8B07 /* AdmonitioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmonitioUITests.swift; sourceTree = "<group>"; };
+		CD983F3A2BAF926A00FD8B07 /* AdmonitioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmonitioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD983F172BAF926800FD8B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD983F272BAF926A00FD8B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD983F312BAF926A00FD8B07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD983F112BAF926800FD8B07 = {
+			isa = PBXGroup;
+			children = (
+				CD983F1C2BAF926800FD8B07 /* Admonitio */,
+				CD983F2D2BAF926A00FD8B07 /* AdmonitioTests */,
+				CD983F372BAF926A00FD8B07 /* AdmonitioUITests */,
+				CD983F1B2BAF926800FD8B07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD983F1B2BAF926800FD8B07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD983F1A2BAF926800FD8B07 /* Admonitio.app */,
+				CD983F2A2BAF926A00FD8B07 /* AdmonitioTests.xctest */,
+				CD983F342BAF926A00FD8B07 /* AdmonitioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD983F1C2BAF926800FD8B07 /* Admonitio */ = {
+			isa = PBXGroup;
+			children = (
+				CD983F1D2BAF926800FD8B07 /* AdmonitioApp.swift */,
+				CD983F1F2BAF926800FD8B07 /* ContentView.swift */,
+				CD983F212BAF926A00FD8B07 /* Assets.xcassets */,
+				CD983F232BAF926A00FD8B07 /* Preview Content */,
+			);
+			path = Admonitio;
+			sourceTree = "<group>";
+		};
+		CD983F232BAF926A00FD8B07 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD983F242BAF926A00FD8B07 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD983F2D2BAF926A00FD8B07 /* AdmonitioTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD983F2E2BAF926A00FD8B07 /* AdmonitioTests.swift */,
+			);
+			path = AdmonitioTests;
+			sourceTree = "<group>";
+		};
+		CD983F372BAF926A00FD8B07 /* AdmonitioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD983F382BAF926A00FD8B07 /* AdmonitioUITests.swift */,
+				CD983F3A2BAF926A00FD8B07 /* AdmonitioUITestsLaunchTests.swift */,
+			);
+			path = AdmonitioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD983F192BAF926800FD8B07 /* Admonitio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD983F3E2BAF926A00FD8B07 /* Build configuration list for PBXNativeTarget "Admonitio" */;
+			buildPhases = (
+				CD983F162BAF926800FD8B07 /* Sources */,
+				CD983F172BAF926800FD8B07 /* Frameworks */,
+				CD983F182BAF926800FD8B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Admonitio;
+			productName = Admonitio;
+			productReference = CD983F1A2BAF926800FD8B07 /* Admonitio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD983F292BAF926A00FD8B07 /* AdmonitioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD983F412BAF926A00FD8B07 /* Build configuration list for PBXNativeTarget "AdmonitioTests" */;
+			buildPhases = (
+				CD983F262BAF926A00FD8B07 /* Sources */,
+				CD983F272BAF926A00FD8B07 /* Frameworks */,
+				CD983F282BAF926A00FD8B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD983F2C2BAF926A00FD8B07 /* PBXTargetDependency */,
+			);
+			name = AdmonitioTests;
+			productName = AdmonitioTests;
+			productReference = CD983F2A2BAF926A00FD8B07 /* AdmonitioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD983F332BAF926A00FD8B07 /* AdmonitioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD983F442BAF926A00FD8B07 /* Build configuration list for PBXNativeTarget "AdmonitioUITests" */;
+			buildPhases = (
+				CD983F302BAF926A00FD8B07 /* Sources */,
+				CD983F312BAF926A00FD8B07 /* Frameworks */,
+				CD983F322BAF926A00FD8B07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD983F362BAF926A00FD8B07 /* PBXTargetDependency */,
+			);
+			name = AdmonitioUITests;
+			productName = AdmonitioUITests;
+			productReference = CD983F342BAF926A00FD8B07 /* AdmonitioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD983F122BAF926800FD8B07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					CD983F192BAF926800FD8B07 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					CD983F292BAF926A00FD8B07 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CD983F192BAF926800FD8B07;
+					};
+					CD983F332BAF926A00FD8B07 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = CD983F192BAF926800FD8B07;
+					};
+				};
+			};
+			buildConfigurationList = CD983F152BAF926800FD8B07 /* Build configuration list for PBXProject "Admonitio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD983F112BAF926800FD8B07;
+			productRefGroup = CD983F1B2BAF926800FD8B07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD983F192BAF926800FD8B07 /* Admonitio */,
+				CD983F292BAF926A00FD8B07 /* AdmonitioTests */,
+				CD983F332BAF926A00FD8B07 /* AdmonitioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD983F182BAF926800FD8B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD983F252BAF926A00FD8B07 /* Preview Assets.xcassets in Resources */,
+				CD983F222BAF926A00FD8B07 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD983F282BAF926A00FD8B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD983F322BAF926A00FD8B07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD983F162BAF926800FD8B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD983F202BAF926800FD8B07 /* ContentView.swift in Sources */,
+				CD983F1E2BAF926800FD8B07 /* AdmonitioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD983F262BAF926A00FD8B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD983F2F2BAF926A00FD8B07 /* AdmonitioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD983F302BAF926A00FD8B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD983F392BAF926A00FD8B07 /* AdmonitioUITests.swift in Sources */,
+				CD983F3B2BAF926A00FD8B07 /* AdmonitioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD983F2C2BAF926A00FD8B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD983F192BAF926800FD8B07 /* Admonitio */;
+			targetProxy = CD983F2B2BAF926A00FD8B07 /* PBXContainerItemProxy */;
+		};
+		CD983F362BAF926A00FD8B07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD983F192BAF926800FD8B07 /* Admonitio */;
+			targetProxy = CD983F352BAF926A00FD8B07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD983F3C2BAF926A00FD8B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD983F3D2BAF926A00FD8B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD983F3F2BAF926A00FD8B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Admonitio/Preview Content\"";
+				DEVELOPMENT_TEAM = 96T5C9B546;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackman-Parker.Admonitio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD983F402BAF926A00FD8B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Admonitio/Preview Content\"";
+				DEVELOPMENT_TEAM = 96T5C9B546;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackman-Parker.Admonitio";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD983F422BAF926A00FD8B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96T5C9B546;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackman-Parker.AdmonitioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Admonitio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Admonitio";
+			};
+			name = Debug;
+		};
+		CD983F432BAF926A00FD8B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96T5C9B546;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackman-Parker.AdmonitioTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Admonitio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Admonitio";
+			};
+			name = Release;
+		};
+		CD983F452BAF926A00FD8B07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96T5C9B546;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackman-Parker.AdmonitioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Admonitio;
+			};
+			name = Debug;
+		};
+		CD983F462BAF926A00FD8B07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 96T5C9B546;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Jackman-Parker.AdmonitioUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Admonitio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD983F152BAF926800FD8B07 /* Build configuration list for PBXProject "Admonitio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD983F3C2BAF926A00FD8B07 /* Debug */,
+				CD983F3D2BAF926A00FD8B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD983F3E2BAF926A00FD8B07 /* Build configuration list for PBXNativeTarget "Admonitio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD983F3F2BAF926A00FD8B07 /* Debug */,
+				CD983F402BAF926A00FD8B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD983F412BAF926A00FD8B07 /* Build configuration list for PBXNativeTarget "AdmonitioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD983F422BAF926A00FD8B07 /* Debug */,
+				CD983F432BAF926A00FD8B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD983F442BAF926A00FD8B07 /* Build configuration list for PBXNativeTarget "AdmonitioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD983F452BAF926A00FD8B07 /* Debug */,
+				CD983F462BAF926A00FD8B07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD983F122BAF926800FD8B07 /* Project object */;
+}
