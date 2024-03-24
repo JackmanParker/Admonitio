@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		CD983F1E2BAF926800FD8B07 /* AdmonitioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F1D2BAF926800FD8B07 /* AdmonitioApp.swift */; };
-		CD983F202BAF926800FD8B07 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F1F2BAF926800FD8B07 /* ContentView.swift */; };
-		CD983F222BAF926A00FD8B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD983F212BAF926A00FD8B07 /* Assets.xcassets */; };
+		CD983F202BAF926800FD8B07 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F1F2BAF926800FD8B07 /* MessageView.swift */; };
 		CD983F252BAF926A00FD8B07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD983F242BAF926A00FD8B07 /* Preview Assets.xcassets */; };
 		CD983F2F2BAF926A00FD8B07 /* AdmonitioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F2E2BAF926A00FD8B07 /* AdmonitioTests.swift */; };
 		CD983F392BAF926A00FD8B07 /* AdmonitioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F382BAF926A00FD8B07 /* AdmonitioUITests.swift */; };
 		CD983F3B2BAF926A00FD8B07 /* AdmonitioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F3A2BAF926A00FD8B07 /* AdmonitioUITestsLaunchTests.swift */; };
+		CD983F482BAF95C500FD8B07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD983F472BAF95C500FD8B07 /* Assets.xcassets */; };
+		CD983F4B2BAF963000FD8B07 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F4A2BAF963000FD8B07 /* Theme.swift */; };
+		CD983F4D2BAF96A000FD8B07 /* DailyTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F4C2BAF96A000FD8B07 /* DailyTexts.swift */; };
+		CD983F4F2BAFAB2900FD8B07 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F4E2BAFAB2900FD8B07 /* CardView.swift */; };
+		CD983F512BAFC06300FD8B07 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F502BAFC06300FD8B07 /* TrailingIconLabelStyle.swift */; };
+		CD983F532BAFC34200FD8B07 /* TextsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F522BAFC34200FD8B07 /* TextsView.swift */; };
+		CD983F552BAFD88900FD8B07 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD983F542BAFD88900FD8B07 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +42,20 @@
 /* Begin PBXFileReference section */
 		CD983F1A2BAF926800FD8B07 /* Admonitio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Admonitio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD983F1D2BAF926800FD8B07 /* AdmonitioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmonitioApp.swift; sourceTree = "<group>"; };
-		CD983F1F2BAF926800FD8B07 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		CD983F212BAF926A00FD8B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD983F1F2BAF926800FD8B07 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
 		CD983F242BAF926A00FD8B07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD983F2A2BAF926A00FD8B07 /* AdmonitioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdmonitioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD983F2E2BAF926A00FD8B07 /* AdmonitioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmonitioTests.swift; sourceTree = "<group>"; };
 		CD983F342BAF926A00FD8B07 /* AdmonitioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdmonitioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD983F382BAF926A00FD8B07 /* AdmonitioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmonitioUITests.swift; sourceTree = "<group>"; };
 		CD983F3A2BAF926A00FD8B07 /* AdmonitioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdmonitioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD983F472BAF95C500FD8B07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Downloads/CreatingACardView/Complete/Scrumdinger/Assets.xcassets; sourceTree = "<group>"; };
+		CD983F4A2BAF963000FD8B07 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		CD983F4C2BAF96A000FD8B07 /* DailyTexts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyTexts.swift; sourceTree = "<group>"; };
+		CD983F4E2BAFAB2900FD8B07 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		CD983F502BAFC06300FD8B07 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
+		CD983F522BAFC34200FD8B07 /* TextsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextsView.swift; sourceTree = "<group>"; };
+		CD983F542BAFD88900FD8B07 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +107,14 @@
 			isa = PBXGroup;
 			children = (
 				CD983F1D2BAF926800FD8B07 /* AdmonitioApp.swift */,
-				CD983F1F2BAF926800FD8B07 /* ContentView.swift */,
-				CD983F212BAF926A00FD8B07 /* Assets.xcassets */,
+				CD983F522BAFC34200FD8B07 /* TextsView.swift */,
+				CD983F1F2BAF926800FD8B07 /* MessageView.swift */,
+				CD983F4E2BAFAB2900FD8B07 /* CardView.swift */,
+				CD983F492BAF960D00FD8B07 /* Models */,
+				CD983F472BAF95C500FD8B07 /* Assets.xcassets */,
 				CD983F232BAF926A00FD8B07 /* Preview Content */,
+				CD983F502BAFC06300FD8B07 /* TrailingIconLabelStyle.swift */,
+				CD983F542BAFD88900FD8B07 /* DetailView.swift */,
 			);
 			path = Admonitio;
 			sourceTree = "<group>";
@@ -125,6 +142,15 @@
 				CD983F3A2BAF926A00FD8B07 /* AdmonitioUITestsLaunchTests.swift */,
 			);
 			path = AdmonitioUITests;
+			sourceTree = "<group>";
+		};
+		CD983F492BAF960D00FD8B07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD983F4A2BAF963000FD8B07 /* Theme.swift */,
+				CD983F4C2BAF96A000FD8B07 /* DailyTexts.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD983F252BAF926A00FD8B07 /* Preview Assets.xcassets in Resources */,
-				CD983F222BAF926A00FD8B07 /* Assets.xcassets in Resources */,
+				CD983F482BAF95C500FD8B07 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD983F202BAF926800FD8B07 /* ContentView.swift in Sources */,
+				CD983F532BAFC34200FD8B07 /* TextsView.swift in Sources */,
+				CD983F552BAFD88900FD8B07 /* DetailView.swift in Sources */,
+				CD983F4B2BAF963000FD8B07 /* Theme.swift in Sources */,
+				CD983F512BAFC06300FD8B07 /* TrailingIconLabelStyle.swift in Sources */,
+				CD983F202BAF926800FD8B07 /* MessageView.swift in Sources */,
+				CD983F4D2BAF96A000FD8B07 /* DailyTexts.swift in Sources */,
 				CD983F1E2BAF926800FD8B07 /* AdmonitioApp.swift in Sources */,
+				CD983F4F2BAFAB2900FD8B07 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

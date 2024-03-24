@@ -11,7 +11,7 @@ import SwiftUI
 struct AdmonitioApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TextsView(texts: DailyText.sampleData)
         }
     }
 }
